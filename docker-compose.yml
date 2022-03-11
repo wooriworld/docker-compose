@@ -6,4 +6,11 @@ services:
       context: ${PWD}/demo3
       dockerfile: ${PWD}/demo3/Dockerfile
     ports:
-      - 8081:8080
+      - 8080:8080
+
+  spring2:
+    build:
+      context: ${PWD}/demo4
+      dockerfile: ${PWD}/demo4/Dockerfile
+    ports:
+      - 8080:8080
