@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  spring1:
+    build:
+      context: ${PWD}/demo3
+      dockerfile: ${PWD}/demo3/Dockerfile
+    ports:
+      - 8080:8080
